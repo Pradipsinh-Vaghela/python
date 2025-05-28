@@ -1,5 +1,5 @@
 from art import logo     #comment this two lines of code
-print(logo)              #If you are not downloadeda and use art.py
+print(logo)              #If you are not downloaded and use art.py
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
