@@ -1,7 +1,11 @@
-from art import logo
-print(logo)
+# TODO-1: Import and print the logo from art.py when the program starts.
+from art import logo     #comment this two lines of code
+print(logo)              #If you are not downloadeda and use art.py
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+# TODO-2: What happens if the user enters a number/symbol/space?
+
 
 def caesar(original_text, shift_amount, encode_or_decode):
     output_text = ""
@@ -21,6 +25,8 @@ def caesar(original_text, shift_amount, encode_or_decode):
 
     print(f"Here is the {encode_or_decode}d result: {output_text}")
 
+
+# TODO-3: Can you figure out a way to restart the cipher program?
 cipher = True
 
 while cipher is not False:
@@ -30,9 +36,9 @@ while cipher is not False:
 
     caesar(original_text=text, shift_amount=shift, encode_or_decode=direction)
 
-    restart = input(print("Type 'yes' if you want to go again. Otherwise, type 'no'")).lower()
+    restart = input("\nType 'yes' if you want to go again. Otherwise, type 'no'\n").lower()
 
     if restart == "no":
         cipher = False
         print("Good Bye!")
-      
+        
