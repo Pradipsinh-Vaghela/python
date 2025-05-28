@@ -6,7 +6,7 @@ lives = 6
 
 print(logo)
 chosen_word = random.choice(word_list)
-# print(chosen_word)
+# print(chosen_word)  #Uncomment If you want to do Tracing 
 
 placeholder = ""
 word_length = len(chosen_word)
